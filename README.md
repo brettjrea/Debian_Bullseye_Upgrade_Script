@@ -1,5 +1,5 @@
 # Debian_Bullseye_Upgrade_Script
-Upgrade Debian Buster to Bullseye with Upgrade.sh
+Upgrade Debian Buster to Bullseye with upgrade.sh
 
 ```
 sudo apt update -y &&
