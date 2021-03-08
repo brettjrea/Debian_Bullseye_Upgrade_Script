@@ -19,4 +19,16 @@ sudo apt clean -y
 
 ---
 
+*The following command adds emac key bindings good for the missing up and down keys on chromeos virtual keyboard.*
+
+```
+set -o emacs
+```
+
+*Ctrl-p is previous or up.*
+
+*Ctrl-n is next or down.*
+
+---
+
 *You might now want to [Install NVM](https://github.com/brettjrea/Debian_Install_NVM)*
