@@ -1,6 +1,9 @@
 # Debian_Bullseye_Upgrade_Script
 Upgrade Debian Buster to Bullseye with upgrade.sh
 
+---
+## Commands:
+
 ```
 sudo apt update -y &&
 sudo apt upgrade -y &&
@@ -13,3 +16,7 @@ sudo bash upgrade.sh &&
 sudo apt autoremove -y &&
 sudo apt clean -y
 ```
+
+---
+
+*You might now want to [Install NVM](https://github.com/brettjrea/Debian_Install_NVM)*
