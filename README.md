@@ -56,7 +56,7 @@ sudo apt clean -y
 ---
 ## Keybindings
 
-*The following command adds emac or vim key bindings good workaround for the missing up and down keys on chromeos virtual keyboard.*
+*The following command adds emac or vim key bindings which is a good workaround for the missing up and down keys on chromeos virtual keyboard.*
 
 ```
 set -o emacs
