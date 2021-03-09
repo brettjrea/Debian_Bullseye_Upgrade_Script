@@ -3,7 +3,7 @@ Upgrade Debian Buster to Bullseye with upgrade.sh
 
 ---
 
-## Quickscript:
+### Quickscript:
 
 ```
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y &&
