@@ -65,8 +65,6 @@ set -o emacs
 Or
 
 ```
-
-```
 set -o vi
 ```
 
