@@ -1,6 +1,25 @@
 # Debian_Bullseye_Upgrade_Script
 Upgrade Debian Buster to Bullseye with upgrade.sh
 
+---
+
+## Quickscript:
+
+```
+sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y &&
+sudo apt install wget &&
+wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
+wget https://raw.githubusercontent.com/brettjrea/Debian_Bullseye_Upgrade_Script/master/upgrade.sh &&
+sudo bash fixscripts.sh &&
+sudo bash upgrade.sh && 
+sudo apt autoremove -y &&
+sudo apt clean -y
+```
+---
+
+## Script Breakdown:
+
+---
 
 ## Always be updating:
 
@@ -8,22 +27,28 @@ Upgrade Debian Buster to Bullseye with upgrade.sh
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
 ```
 
----
-
 ## Install required programs:
 
 ```
 sudo apt install wget
 ```
 
----
-## Commands:
+## Download scripts:
 
 ```
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
 wget https://raw.githubusercontent.com/brettjrea/Debian_Bullseye_Upgrade_Script/master/upgrade.sh &&
+```
+
+## Run scripts:
+
+```
 sudo bash fixscripts.sh &&
-sudo bash upgrade.sh && 
+sudo bash upgrade.sh
+```
+## Cleanup
+
+```
 sudo apt autoremove -y &&
 sudo apt clean -y
 ```
