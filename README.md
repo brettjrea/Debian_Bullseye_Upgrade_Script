@@ -1,7 +1,8 @@
 # Debian_Bullseye_Upgrade_Script
+
 Upgrade Debian Buster to Bullseye with upgrade.sh
 
----
+Verified still working but needed to manually install wget
 
 ### Quickscript:
 
