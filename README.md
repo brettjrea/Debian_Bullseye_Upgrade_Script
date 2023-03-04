@@ -38,7 +38,7 @@ set -o emacs
 ```
 ---
 <details>
-## Script Breakdown:
+<summary>Script Breakdown:</summary>
 
 ---
 
@@ -94,7 +94,8 @@ set -o vi
 *Ctrl-n is next or down.*
 
 ---
-</details>
+
 *You might now want to [Install NVS](https://github.com/brettjrea/Debian_Install_NVS)*
 
 *You might now want to [Install NVM](https://github.com/brettjrea/Debian_Install_NVM)*
+</details>
