@@ -17,8 +17,7 @@ jobs:
 
       - name: Copy debian-bullseye-upgrade-script.sh
         run: |
-          mkdir -p bash
-          curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/bash/debian-bullseye-upgrade-script.sh --output bash/debian-bullseye-upgrade-script.sh
+          curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/bash/debian-bullseye-upgrade-script.sh --output debian-bullseye-upgrade-script.sh
       
 
       - name: Auto commit
