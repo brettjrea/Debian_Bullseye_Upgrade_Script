@@ -19,7 +19,7 @@ jobs:
         run: |
           mkdir -p bash
           curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/bash/debian-bullseye-upgrade-script.sh --output bash/debian-bullseye-upgrade-script.sh
-          cp bash/debian-bullseye-upgrade-script.sh .
+      
 
       - name: Auto commit
         uses: stefanzweifel/git-auto-commit-action@v4
