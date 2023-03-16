@@ -1,4 +1,4 @@
-name: Generate Bash Scripts
+name: Generate Bash Script
 
 on:
   workflow_dispatch:
