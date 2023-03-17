@@ -26,7 +26,6 @@
 
 9. Add GitHub CLI:
    1. [Install GitHub CLI](https://github.com/brettjrea/Debian_Install_GitHub_CLI)
-   2. test
 ---
 ### Upgrade Debian Buster to Bullseye with upgrade.sh
 
@@ -46,3 +45,4 @@ sudo apt autoremove -y &&
 sudo apt clean -y
 set -o emacs
 ```
+test
