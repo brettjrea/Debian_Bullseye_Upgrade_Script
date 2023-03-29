@@ -62,6 +62,8 @@
   1. [Install GitHub CLI](https://github.com/brettjrea/Debian_Install_GitHub_CLI)
   
   </details>
+  
+  
 ---
 ### Upgrade Debian Buster to Bullseye with upgrade.sh
 
